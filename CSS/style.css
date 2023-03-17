@@ -1,0 +1,74 @@
+#Header {
+    background-image: url('../images/firstBG.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+#Header .logos{
+    color: #fff;
+}
+
+#Header .logos span{
+    margin-right: 10px;
+}
+#Header .logos span a {
+    text-decoration: none;
+    font-size: 10px;
+}
+.box{
+    box-shadow: 2px 2px 2px 2px #ddd;
+    background-color: #fff;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+.btn {
+    border-radius: 20px;
+    padding: 5px 30px;
+}
+.bannerHeading {
+    color: #fff;
+}
+#aboutHome .label{
+    width: 270px;
+  padding: 0 20px;
+  border-radius: 50px;
+    background-color: #ddd;
+    color: red;
+}
+#aboutHome .logos{
+    margin: 100px  20px;
+}
+#aboutHome .logos .b3{
+    color: blueviolet;
+}
+#aboutHome .mercy{
+font-size: 1.5em;
+margin-top: -15px;
+margin-left: 25px;
+}
+#aboutHome .mercy b{
+    color: rgb(21, 5, 30);
+
+}
+
+#aboutHome .logos  .b1{
+    margin-top: -20px;
+    color: rgb(21, 5, 30);
+}
+#aboutHome .logos  .b2{
+    margin-top: -20px;
+    color: rgb(21, 5, 30);
+}
+#aboutHome .logos i{
+    color: rgb(21, 5, 30);
+}
+#icons p {
+   background-color: #ddd;
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+   text-align: center;
+   padding-top: 8px;
+}
