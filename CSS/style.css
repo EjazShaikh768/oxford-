@@ -30,8 +30,8 @@
 .bannerHeading {
     color: #fff;
 }
-#aboutHome .label{
-    width: 270px;
+ .label{
+    width: max-content;
   padding: 0 20px;
   border-radius: 50px;
     background-color: #ddd;
@@ -71,4 +71,16 @@ margin-left: 25px;
    height: 40px;
    text-align: center;
    padding-top: 8px;
+}
+.secondDiv {
+    background-color: rgb(21, 5, 30);
+    color: #fff;
+}
+#keyFacts span {
+    background-color: rgb(21, 5, 30);
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
 }
