@@ -2,7 +2,8 @@
     background-image: url('../images/firstBG.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    height:max-content;
+    width: 100%;
 }
 #Header .logos{
     color: #fff;
@@ -53,13 +54,18 @@ margin-left: 25px;
 
 }
 
-#aboutHome .logos  .b1{
+ .logos  .b1{
     margin-top: -20px;
     color: rgb(21, 5, 30);
+    font-size: 1.9em;
 }
-#aboutHome .logos  .b2{
+ .logos  .b2{
     margin-top: -20px;
     color: rgb(21, 5, 30);
+    font-size: 1em;
+}
+.logos  .b3{
+    font-size: 0.9em;
 }
 #aboutHome .logos i{
     color: rgb(21, 5, 30);
@@ -71,10 +77,25 @@ margin-left: 25px;
    height: 40px;
    text-align: center;
    padding-top: 8px;
+   color: green;
 }
-.secondDiv {
+.secondDiv{
     background-color: rgb(21, 5, 30);
+margin-top: 25px;
+    height: max-content;
+}
+.secondDiv h6 {
+    color:#fff;
+}
+.secondDiv p {
     color: #fff;
+}
+.secondDiv  aside{
+    color: #ddd;
+    font-size: 0.9em;
+}
+.secondDiv a {
+    text-decoration: none;
 }
 #keyFacts span {
     background-color: rgb(21, 5, 30);
@@ -83,4 +104,51 @@ margin-left: 25px;
     height: 20px;
     border-radius: 50%;
     color: #fff;
+}
+#commentDiv i{
+    color: orange;
+}
+#commentDiv h3 {
+    text-align: center;
+    text-justify: inter-word;
+}
+#commentDiv .clientIcons img{
+    width: 100px;
+    height: 100px;
+}
+#commentDiv img{
+    width: 100%;
+    height: 100%;
+}
+#galleryDiv img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+#footerDiv{
+    background-color: rgb(21, 5, 30);
+}
+#footerDiv .logos{
+    color: #fff;
+}
+#footerDiv p {
+    color: #fff;
+    font-weight: 550;
+}
+#footerDiv span{
+color: #ddd;
+}
+.dashboardcountry .dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-flex;
+    margin-left: 15px;
+}
+.dashboardcountry{
+  display: inline-flex;
+  flex-flow: wrap;
+}
+.dashboardcountry aside{
+    font-size: 0.8em;
 }
